@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://daleyzou.github.io/sitemap.xml
