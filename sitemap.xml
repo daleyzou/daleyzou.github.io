@@ -17,21 +17,7 @@
   </url>
   
   <url>
-    <loc>https://daleyzou.github.io/post/test/</loc>
-    <lastmod>2019-01-21T21:19:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://daleyzou.github.io/post/scala-learning-pattern-matching/</loc>
-    <lastmod>2019-01-21T16:50:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://daleyzou.github.io/post/testnew/</loc>
+    <loc>https://daleyzou.github.io/readme/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -50,13 +36,6 @@
   </url>
   
   <url>
-    <loc>https://daleyzou.github.io/tags/java/</loc>
-    <lastmod>2019-01-21T21:19:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://daleyzou.github.io/post/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -65,7 +44,6 @@
   
   <url>
     <loc>https://daleyzou.github.io/tags/</loc>
-    <lastmod>2019-01-21T21:19:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

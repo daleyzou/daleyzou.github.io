@@ -20,32 +20,5 @@
       <description>1 亲爱的读者朋友们，你们好！ 如果你阅读到了这篇文章，我相信这也是一种缘分，感谢你的阅读，我希望自己能有持续创作的动力。 我不是很喜欢 GitHub Pages 的这种</description>
     </item>
     
-    <item>
-      <title>测试</title>
-      <link>https://daleyzou.github.io/post/test/</link>
-      <pubDate>Mon, 21 Jan 2019 21:19:40 +0800</pubDate>
-      
-      <guid>https://daleyzou.github.io/post/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scala Learning Pattern Matching</title>
-      <link>https://daleyzou.github.io/post/scala-learning-pattern-matching/</link>
-      <pubDate>Mon, 21 Jan 2019 16:50:41 +0800</pubDate>
-      
-      <guid>https://daleyzou.github.io/post/scala-learning-pattern-matching/</guid>
-      <description> hello world! </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://daleyzou.github.io/post/testnew/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://daleyzou.github.io/post/testnew/</guid>
-      <description>你吃了吗？</description>
-    </item>
-    
   </channel>
 </rss>
