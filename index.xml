@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Hugo With Myblog</title>
+      <link>https://daleyzou.github.io/post/hugo-with-myblog/</link>
+      <pubDate>Sun, 29 Nov 2020 21:05:16 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/hugo-with-myblog/</guid>
+      <description>https://github.com/Brent-Li/brent-li.github.io/blob/master/post/build-personal-site-with-hugo/index.html hugo new post/scala-learning-pattern-matching.md 本地启动：hugo server -t even hugo -t even git add . git commit -m &amp;ldquo;Initial commit.&amp;rdquo; git remote add origin git@github.com:daleyzou/daleyzou.github.io.git git push -u origin master</description>
+    </item>
+    
+    <item>
       <title>My Blog Begin</title>
       <link>https://daleyzou.github.io/post/my-blog-begin/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
