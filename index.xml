@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>Some Blog Save</title>
+      <link>https://daleyzou.github.io/post/some-blog-save/</link>
+      <pubDate>Tue, 01 Dec 2020 12:58:08 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/some-blog-save/</guid>
+      <description>6. 好博文收藏 函数式编程初探 后端程序员必备的Linux基础知识 pyshon最佳实践 MySQL参考手册译文 StackExchange.Redis</description>
+    </item>
+    
+    <item>
+      <title>My Normal Link</title>
+      <link>https://daleyzou.github.io/post/my-normal-link/</link>
+      <pubDate>Tue, 01 Dec 2020 08:38:41 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/my-normal-link/</guid>
+      <description>Java Collection 移除元素的几种方式 &amp;rdquo;&amp;rsquo; for (int i = 0; i &amp;lt; aList.size(); i++) { if (&amp;ldquo;abc&amp;rdquo;.equals(aList.get(i))) { aList.remove(i&amp;ndash;);// 索引回溯 } &amp;rdquo;&amp;rsquo; i++不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型</description>
+    </item>
+    
+    <item>
       <title>Hugo With Myblog</title>
       <link>https://daleyzou.github.io/post/hugo-with-myblog/</link>
       <pubDate>Sun, 29 Nov 2020 21:05:16 +0800</pubDate>

@@ -10,6 +10,20 @@
   </url>
   
   <url>
+    <loc>https://daleyzou.github.io/post/some-blog-save/</loc>
+    <lastmod>2020-12-01T12:58:08+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/my-normal-link/</loc>
+    <lastmod>2020-12-01T08:38:41+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://daleyzou.github.io/post/hugo-with-myblog/</loc>
     <lastmod>2020-11-29T21:05:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,7 +58,7 @@
   
   <url>
     <loc>https://daleyzou.github.io/post/</loc>
-    <lastmod>2020-11-29T21:05:16+08:00</lastmod>
+    <lastmod>2020-12-01T12:58:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
