@@ -15,6 +15,12 @@ aList.remove(i--);// 索引回溯
 [CAS 原子操作](https://juejin.cn/post/6844904177856937991)
 cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要么锁住 “缓存锁”，目的都是为了保证 “比较、交换” 这个复合操作的原子性
 
+[java线程池](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+
+[rpc框架](https://www.jianshu.com/p/28e48e5f9c73)
+
+[@Autowired底层实现](https://juejin.cn/post/6844903957135884295)
+
 
 
 
