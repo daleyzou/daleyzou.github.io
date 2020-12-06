@@ -23,5 +23,15 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
 
 [和为定值k的子数组长度](https://blog.csdn.net/study_000/article/details/77524798)
 
+[mysql与redis数据同步](https://www.cnblogs.com/gered/p/11737388.html)
+
+[异步io、NIO、AIO](https://blog.csdn.net/weixin_43122090/article/details/105462088)
+
+[G1垃圾收集器](https://tech.meituan.com/2016/09/23/g1.html)
+
+[volatile原理](https://zhuanlan.zhihu.com/p/77085695)
+
+
+
 
 
