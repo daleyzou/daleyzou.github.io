@@ -16,14 +16,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="DaleyZou" /><meta name="description" content="Java Collection 移除元素的几种方式 &amp;rdquo;&amp;rsquo; for (int i = 0; i &amp;lt; aList.size(); i&#43;&#43;) { if (&amp;ldquo;abc&amp;rdquo;.equals(aList.get(i))) { aList.remove(i&amp;ndash;);// 索引回溯 } &amp;rdquo;&amp;rsquo; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="DaleyZou" /><meta name="description" content="Java Collection 移除元素的几种方式 &#39;&#39;&#39; for (int i = 0; i &amp;lt; aList.size(); i&#43;&#43;) { if (&amp;ldquo;abc&amp;rdquo;.equals(aList.get(i))) { aList.remove(i&amp;ndash;);// 索引回溯 } &#39;&#39;&#39; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.79.1 with theme even" />
 
 
 <link rel="canonical" href="https://daleyzou.github.io/post/my-normal-link/" />
@@ -34,30 +34,29 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
-<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 <meta property="og:title" content="My Normal Link" />
-<meta property="og:description" content="Java Collection 移除元素的几种方式 &rdquo;&rsquo; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &rdquo;&rsquo; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型" />
+<meta property="og:description" content="Java Collection 移除元素的几种方式 &#39;&#39;&#39; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &#39;&#39;&#39; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://daleyzou.github.io/post/my-normal-link/" /><meta property="article:published_time" content="2020-12-01T08:38:41&#43;08:00"/>
-<meta property="article:modified_time" content="2020-12-01T08:38:41&#43;08:00"/>
-
+<meta property="og:url" content="https://daleyzou.github.io/post/my-normal-link/" />
+<meta property="article:published_time" content="2020-12-01T08:38:41+08:00" />
+<meta property="article:modified_time" content="2020-12-01T08:38:41+08:00" />
 <meta itemprop="name" content="My Normal Link">
-<meta itemprop="description" content="Java Collection 移除元素的几种方式 &rdquo;&rsquo; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &rdquo;&rsquo; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型">
-
-
-<meta itemprop="datePublished" content="2020-12-01T08:38:41&#43;08:00" />
-<meta itemprop="dateModified" content="2020-12-01T08:38:41&#43;08:00" />
-<meta itemprop="wordCount" content="288">
+<meta itemprop="description" content="Java Collection 移除元素的几种方式 &#39;&#39;&#39; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &#39;&#39;&#39; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型">
+<meta itemprop="datePublished" content="2020-12-01T08:38:41+08:00" />
+<meta itemprop="dateModified" content="2020-12-01T08:38:41+08:00" />
+<meta itemprop="wordCount" content="424">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="My Normal Link"/>
-<meta name="twitter:description" content="Java Collection 移除元素的几种方式 &rdquo;&rsquo; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &rdquo;&rsquo; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型"/>
+<meta name="twitter:description" content="Java Collection 移除元素的几种方式 &#39;&#39;&#39; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &#39;&#39;&#39; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,7 +128,7 @@
       <div class="post-meta">
         <span class="post-time"> 2020-12-01 </span>
         
-          <span class="more-meta"> 约 288 字 </span>
+          <span class="more-meta"> 约 424 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -138,41 +137,42 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
       <p><a href="https://juejin.cn/post/6844904035766501384">Java Collection 移除元素的几种方式</a></p>
-
-<p>&rdquo;&rsquo;<br />
-for (int i = 0; i &lt; aList.size(); i++) {
+<p>'''</p>
+<p>for (int i = 0; i &lt; aList.size(); i++) {
 if (&ldquo;abc&rdquo;.equals(aList.get(i))) {
 aList.remove(i&ndash;);// 索引回溯
-}<br />
-&rdquo;&rsquo;</p>
-
+}</p>
+<p>'''</p>
 <p><a href="https://www.jianshu.com/p/a47b141452ce">i++不是原子运算</a>  <a href="https://blog.csdn.net/qq_35425070/article/details/83866209">为什么不是原子操作</a></p>
-
-<p>内存屏障是个CPU指令,Java内存模型中volatile变量就是通过在写操作之后会插入一个store屏障，在读操作之前会插入一个load屏障，来实现的“禁止指令重排序”</p>
-
+<pre><code>内存屏障是个CPU指令,Java内存模型中volatile变量就是通过在写操作之后会插入一个store屏障，在读操作之前会插入一个load屏障，来实现的“禁止指令重排序”
+</code></pre>
 <p><a href="https://juejin.cn/post/6844904177856937991">CAS 原子操作</a>
 cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要么锁住 “缓存锁”，目的都是为了保证 “比较、交换” 这个复合操作的原子性</p>
-
 <p><a href="https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html">java线程池</a></p>
-
 <p><a href="https://www.jianshu.com/p/28e48e5f9c73">rpc框架</a></p>
-
 <p><a href="https://juejin.cn/post/6844903957135884295">@Autowired底层实现</a></p>
-
 <p><a href="https://blog.csdn.net/study_000/article/details/77524798">和为定值k的子数组长度</a></p>
-
 <p><a href="https://www.cnblogs.com/gered/p/11737388.html">mysql与redis数据同步</a></p>
-
 <p><a href="https://blog.csdn.net/weixin_43122090/article/details/105462088">异步io、NIO、AIO</a></p>
-
 <p><a href="https://tech.meituan.com/2016/09/23/g1.html">G1垃圾收集器</a></p>
-
 <p><a href="https://zhuanlan.zhihu.com/p/77085695">volatile原理</a></p>
+<p><a href="https://www.cnblogs.com/chenyangyao/p/5269622.html">JVM内存模型</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/34443888">java8 ArrayList</a></p>
+<p><a href="https://www.infoq.cn/article/zoyqri4c-bfkmubmzmkn">虚拟机垃圾回收</a></p>
+<p><a href="https://www.jianshu.com/p/86a1fd2d7406">对B+树，B树，红黑树的理解</a></p>
+<p><a href="https://blog.csdn.net/whoamiyang/article/details/51926985">浅谈AVL树,红黑树,B树,B+树原理及应用</a></p>
+<p><a href="https://ivanzz1001.github.io/records/post/data-structure/2018/06/16/ds-bplustree">B+树详解</a></p>
+<p><a href="https://juejin.cn/post/6844903695298068487">Synchronize和ReentrantLock区别</a></p>
+<p><a href="https://juejin.cn/post/6844903805683761165">深入理解ReentrantLock的实现原理</a></p>
+<p><a href="">Redis 跳跃表</a></p>
+<p><a href="https://redisbook.readthedocs.io/en/latest/internal-datastruct/sds.html">Redis 字符串实现</a></p>
+<p><a href="">线程里该如何返回值 callable runnable</a></p>
+<p><a href="">ThreadLocal volatile 线程的内存模型</a></p>
 
     </div>
 
@@ -183,14 +183,18 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
   </p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
-    <span class="item-content">2020-12-01</span>
+    <span class="item-content">
+        2020-12-01
+        
+    </span>
   </p>
   <p class="copyright-item">
       <span class="item-title">原始文档</span>
       <span class="item-content"><a class="link-to-markdown" href="https://daleyzou.github.io/post/my-normal-link/index.md" target="_blank">查看本文 Markdown 版本 »</a></span>
     </p>
   
-</div><footer class="post-footer">
+</div>
+<footer class="post-footer">
       
       <nav class="post-nav">
         <a class="prev" href="/post/some-blog-save/">
@@ -244,6 +248,29 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
 
   
 
+  <span id="/post/my-normal-link/" class="leancloud_visitors" data-flag-title="My Normal Link">
+		<span class="post-meta-item-text">文章阅读量 </span>
+		<span class="leancloud-visitors-count">0</span>
+		<p></p>
+	  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'PTfvISCUAuiFQ9seqyHtDFbd-gzGzoHsz',
+        appKey: '8zid2a5B78tUNgqTK8Eqk6xJ',
+        notify:  false ,
+        verify:  false ,
+        avatar:'mm',
+        placeholder: '填写邮箱有回复时提醒你哦...',
+        visitor:  true 
+    });
+  </script>
+
+  
+
       </div>
     </main>
 
@@ -270,13 +297,10 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
   <span class="copyright-year">
     &copy; 
     2019 - 
-    2020
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">DaleyZou</span>
+    2020<span class="heart"><i class="iconfont icon-heart"></i></span><span>DaleyZou</span>
   </span>
 </div>
+
     </footer>
 
     <div class="back-to-top" id="back-to-top">
@@ -287,7 +311,10 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
 
 
 
