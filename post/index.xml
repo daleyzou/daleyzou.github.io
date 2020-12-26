@@ -6,7 +6,17 @@
     <description>Recent content in Posts on DaleyZou&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 01 Dec 2020 12:58:08 +0800</lastBuildDate><atom:link href="https://daleyzou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Dec 2020 19:55:58 +0800</lastBuildDate><atom:link href="https://daleyzou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Begin Resource Learn</title>
+      <link>https://daleyzou.github.io/post/go-begin-resource-learn/</link>
+      <pubDate>Sat, 26 Dec 2020 19:55:58 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/go-begin-resource-learn/</guid>
+      <description>https://studygolang.com/subject/2
+https://github.com/talkgo/read</description>
+    </item>
+    
     <item>
       <title>Some Blog Save</title>
       <link>https://daleyzou.github.io/post/some-blog-save/</link>

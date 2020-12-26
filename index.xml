@@ -6,7 +6,7 @@
     <description>Recent content on DaleyZou&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 01 Dec 2020 12:58:08 +0800</lastBuildDate><atom:link href="https://daleyzou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Dec 2020 19:55:58 +0800</lastBuildDate><atom:link href="https://daleyzou.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://daleyzou.github.io/about/</link>
@@ -14,6 +14,16 @@
       
       <guid>https://daleyzou.github.io/about/</guid>
       <description>我将在这里记录我的点点滴滴， 别以为我会告诉你我的小秘密。 时不时的看本书 动不动就是看电影 想一想打开了B站 原来编程被成为我的最爱</description>
+    </item>
+    
+    <item>
+      <title>Go Begin Resource Learn</title>
+      <link>https://daleyzou.github.io/post/go-begin-resource-learn/</link>
+      <pubDate>Sat, 26 Dec 2020 19:55:58 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/go-begin-resource-learn/</guid>
+      <description>https://studygolang.com/subject/2
+https://github.com/talkgo/read</description>
     </item>
     
     <item>

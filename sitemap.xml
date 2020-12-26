@@ -10,14 +10,21 @@
   
   <url>
     <loc>https://daleyzou.github.io/</loc>
-    <lastmod>2020-12-01T12:58:08+08:00</lastmod>
+    <lastmod>2020-12-26T19:55:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/go-begin-resource-learn/</loc>
+    <lastmod>2020-12-26T19:55:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://daleyzou.github.io/post/</loc>
-    <lastmod>2020-12-01T12:58:08+08:00</lastmod>
+    <lastmod>2020-12-26T19:55:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
