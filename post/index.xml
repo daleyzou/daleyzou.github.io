@@ -56,5 +56,33 @@ https://books.studygolang.com/The-Golang-Standard-Library-by-Example/</descripti
       <description>亲爱的读者朋友们，你们好！ 如果你阅读到了这篇文章，我相信这也是一种缘分，感谢你的阅读，我希望自己能有持续创作的动力。 我不是很喜欢 GitHub Pages 的这种写</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://daleyzou.github.io/post/learn-message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/learn-message/</guid>
+      <description>java 对象头 在 Java 虚拟机中，每个 Java 对象都有一个对象头（object header），这个由标记字段和类型指针所构成。其中，标记字段用以存储 Java 虚拟机有</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://daleyzou.github.io/post/my-konledge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/my-konledge/</guid>
+      <description>mysql 的 varchar redis 的 String HTTP 的多路复用 mysql 普通索引和唯一索引的区别 获取唯一主键的方法 select、 poll、 epoll 区别 Redis sds len, maloc, char[]; int 存储， 44字节紧凑存储， 大于4</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://daleyzou.github.io/post/wanttoread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/wanttoread/</guid>
+      <description>1、https://github.com/dromara/hutool
+2、https://segmentfault.com/blog/dubboanalysis?page=3</description>
+    </item>
+    
   </channel>
 </rss>

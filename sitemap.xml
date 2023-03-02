@@ -58,6 +58,24 @@
   </url>
   
   <url>
+    <loc>https://daleyzou.github.io/post/learn-message/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/my-konledge/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/wanttoread/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://daleyzou.github.io/readme/</loc>
     <priority>0</priority>
   </url>
