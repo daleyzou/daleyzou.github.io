@@ -6,7 +6,34 @@
     <description>Recent content in Posts on DaleyZou&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://daleyzou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 21:13:32 +0800</lastBuildDate><atom:link href="https://daleyzou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn Message Kafka</title>
+      <link>https://daleyzou.github.io/post/learn-message-kafka/</link>
+      <pubDate>Mon, 17 Apr 2023 21:13:32 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/learn-message-kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn Message Redis</title>
+      <link>https://daleyzou.github.io/post/learn-message-redis/</link>
+      <pubDate>Mon, 17 Apr 2023 21:13:11 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/learn-message-redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn Message Mysql</title>
+      <link>https://daleyzou.github.io/post/learn-message-mysql/</link>
+      <pubDate>Mon, 17 Apr 2023 21:13:01 +0800</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/learn-message-mysql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>learn-message-java</title>
       <link>https://daleyzou.github.io/post/learn-message-java/</link>

@@ -10,7 +10,35 @@
   
   <url>
     <loc>https://daleyzou.github.io/</loc>
-    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-17T21:13:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/learn-message-kafka/</loc>
+    <lastmod>2023-04-17T21:13:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/</loc>
+    <lastmod>2023-04-17T21:13:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/learn-message-redis/</loc>
+    <lastmod>2023-04-17T21:13:11+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://daleyzou.github.io/post/learn-message-mysql/</loc>
+    <lastmod>2023-04-17T21:13:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -24,13 +52,6 @@
   
   <url>
     <loc>https://daleyzou.github.io/post/learn-message-jvm/</loc>
-    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://daleyzou.github.io/post/</loc>
     <lastmod>2023-04-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
