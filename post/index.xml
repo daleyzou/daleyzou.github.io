@@ -6,7 +6,25 @@
     <description>Recent content in Posts on DaleyZou&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 26 Dec 2020 19:55:58 +0800</lastBuildDate><atom:link href="https://daleyzou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://daleyzou.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>learn-message-java</title>
+      <link>https://daleyzou.github.io/post/learn-message-java/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/learn-message-java/</guid>
+      <description>学习链接 https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E5%90%8E%E7%AB%AF%E6%8A%80%E6%9C%AF%E9%9D%A2%E8%AF%9538%E8%AE%B2 https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Java%20%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%2078%20%E8%AE%B2-%E5%AE%8C https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Java%20%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AE%9E%E6%88%98-%E5%AE%8C https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Java%20%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E9%9D%A2%E8%AF%95%E7%B2%BE%E8%AE%B2 https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98 https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/Java%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E9%9D%A2%E8%AF%95%E7%B2%BE%E8%AE%B2 String String.intern() 线程状态 Java线程有以下几种状态： New（新建）：线程被创建但还没有启动，此时处于New状态。 Runnable（可</description>
+    </item>
+    
+    <item>
+      <title>learn-message-jvm</title>
+      <link>https://daleyzou.github.io/post/learn-message-jvm/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/learn-message-jvm/</guid>
+      <description>java 对象头 在 Java 虚拟机中，每个 Java 对象都有一个对象头（object header），这个由标记字段和类型指针所构成。其中，标记字段用以存储 Java 虚拟机有</description>
+    </item>
+    
     <item>
       <title>Go Begin Resource Learn</title>
       <link>https://daleyzou.github.io/post/go-begin-resource-learn/</link>
@@ -58,15 +76,6 @@ https://books.studygolang.com/The-Golang-Standard-Library-by-Example/</descripti
     
     <item>
       <title></title>
-      <link>https://daleyzou.github.io/post/learn-message/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://daleyzou.github.io/post/learn-message/</guid>
-      <description>java 对象头 在 Java 虚拟机中，每个 Java 对象都有一个对象头（object header），这个由标记字段和类型指针所构成。其中，标记字段用以存储 Java 虚拟机有</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://daleyzou.github.io/post/my-konledge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -82,6 +91,15 @@ https://books.studygolang.com/The-Golang-Standard-Library-by-Example/</descripti
       <guid>https://daleyzou.github.io/post/wanttoread/</guid>
       <description>1、https://github.com/dromara/hutool
 2、https://segmentfault.com/blog/dubboanalysis?page=3</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://daleyzou.github.io/post/work-util/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://daleyzou.github.io/post/work-util/</guid>
+      <description>docker https://yeasy.gitbook.io/docker_practice/container/attach_exec</description>
     </item>
     
   </channel>

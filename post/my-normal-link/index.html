@@ -49,7 +49,7 @@
 <meta itemprop="description" content="Java Collection 移除元素的几种方式 &#39;&#39;&#39; for (int i = 0; i &lt; aList.size(); i&#43;&#43;) { if (&ldquo;abc&rdquo;.equals(aList.get(i))) { aList.remove(i&ndash;);// 索引回溯 } &#39;&#39;&#39; i&#43;&#43;不是原子运算 为什么不是原子操作 内存屏障是个CPU指令,Java内存模型">
 <meta itemprop="datePublished" content="2020-12-01T08:38:41+08:00" />
 <meta itemprop="dateModified" content="2020-12-01T08:38:41+08:00" />
-<meta itemprop="wordCount" content="1327">
+<meta itemprop="wordCount" content="1360">
 
 
 
@@ -138,7 +138,7 @@
       <div class="post-meta">
         <span class="post-time"> 2020-12-01 </span>
         
-          <span class="more-meta"> 约 1327 字 </span>
+          <span class="more-meta"> 约 1360 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
@@ -172,6 +172,7 @@
         <li><a href="#消息队列">消息队列</a></li>
         <li><a href="#一些题">一些题</a></li>
         <li><a href="#三年了学习吧">三年了，学习吧</a></li>
+        <li><a href="#本次有效链接">本次有效链接</a></li>
       </ul>
     </li>
   </ul>
@@ -238,6 +239,7 @@ aList.remove(i&ndash;);// 索引回溯
 <p><a href="https://juejin.cn/post/6844904163927654408">Gc roots 有哪些</a></p>
 <p><a href="https://juejin.cn/post/6935417287990050846">虚拟机内存划分</a></p>
 <p><a href="https://blog.csdn.net/weixin_39626180/article/details/113073213">full gc 问题排查</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/431406707">三色标记法</a></p>
 <h3 id="java知识点">Java知识点</h3>
 <p><a href="https://github.com/alibaba/transmittable-thread-local/issues/123">transmittable-thread-local</a></p>
 <p><a href="https://juejin.cn/post/6844904177856937991">CAS 原子操作</a>
@@ -251,9 +253,11 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
 <p><a href="https://ivanzz1001.github.io/records/post/data-structure/2018/06/16/ds-bplustree">B+树详解</a></p>
 <p><a href="https://juejin.cn/post/6844903695298068487">Synchronize和ReentrantLock区别</a></p>
 <p><a href="https://juejin.cn/post/6844903805683761165">深入理解ReentrantLock的实现原理</a></p>
+<p><a href="https://blog.csdn.net/a745233700/article/details/119709104">ConcurrentHashMap 源码</a></p>
+<p><a href="https://blog.51cto.com/Saintmm/5543206">ConcurrentHashMap 的get方法</a></p>
 <p><a href="https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html">从ReentrantLock的实现看AQS的原理及应用</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/56214714">threadlocal 内存泄露</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/72296421">Java8 hashmap</a> 详细扩容流程</p>
+<p><a href="https://zhuanlan.zhihu.com/p/72296421">Java8 hashmap</a>    <a href="https://tech.meituan.com/2016/06/24/java-hashmap.html">详细扩容流程</a></p>
 <p><a href="">线程里该如何返回值 callable runnable</a></p>
 <p><a href="https://www.cnblogs.com/wupeixuan/p/12638203.html">ThreadLocal </a></p>
 <p><a href="">LongAdder vs AutomicInteger</a></p>
@@ -262,6 +266,7 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
 <p><a href="https://www.cnblogs.com/hollischuang/p/14260801.html">双亲委派</a></p>
 <p><a href="https://segmentfault.com/a/1190000021433079">三个线程循环打印 A B C</a></p>
 <p><a href="https://zhuanlan.zhihu.com/p/136571068">线程池线程异常</a></p>
+<p><a href="https://blog.csdn.net/jiadajing267/article/details/106750920">装饰器模式VS代理模式</a></p>
 <h1 id="redis">Redis</h1>
 <p><a href="">Redis 跳跃表</a></p>
 <p><a href="https://redisbook.readthedocs.io/en/latest/internal-datastruct/sds.html">Redis 字符串实现</a></p>
@@ -333,6 +338,8 @@ cmpxchg指令，lock前缀指令执行时，要么锁住 “总线锁”，要�
 <p><a href="https://javaguide.cn/">https://javaguide.cn/</a></p>
 <p><a href="https://github.com/0voice/interview_internal_reference">https://github.com/0voice/interview_internal_reference</a></p>
 <p><a href="https://osjobs.net/topk/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/">https://osjobs.net/topk/%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8/</a></p>
+<h3 id="本次有效链接">本次有效链接</h3>
+<p><a href="https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%20Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%AE%8C">https://learn.lianglianglee.com/%E4%B8%93%E6%A0%8F/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%20Java%20%E8%99%9A%E6%8B%9F%E6%9C%BA-%E5%AE%8C</a></p>
 
     </div>
 
